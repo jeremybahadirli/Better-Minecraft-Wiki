@@ -1,0 +1,84 @@
+/*Remove floating white buttons*/
+.page-side-tools__wrapper {
+    display: none;
+}
+
+/*Remove other floating blue buttons*/
+#WikiaBar {
+    display: none;
+}
+
+/*Remove Fandom sidebar*/
+.global-navigation {
+    display:none !important;
+}
+
+/*Compensate main container for missing sidebar*/
+.main-container {
+    margin-left: 0 !important;
+    width: 100% !important;
+}
+
+/*Compensate grey pop-up header for missing sidebar*/
+.fandom-sticky-header {
+    left: 0 !important;
+}
+
+/*Compensate search modal for missing sidebar*/
+.search-modal,
+.search-modal::before {
+    left: 0 !important;
+}
+
+/*Remove right column from search pages*/
+.unified-search__layout__right-rail {
+    display: none !important;
+}
+
+/*Allow search results to use full horizontal space*/
+/*TODO: Finalize this*/
+.unified-search__layout {
+    grid-template-areas: "left main right" !important;
+    grid-template-columns: 2fr 7fr 3fr !important;
+}
+
+/*Remove right column from article pages*/
+.page__right-rail {
+    display: none !important;
+}
+
+/*Add border radiuses where right columns used to be*/
+.page__main {
+    border-radius: 3px 3px 3px 3px !important;
+}
+
+/*Remove "Others like you also viewed"*/
+.render-wiki-recommendations {
+    display: none;
+}
+
+/*Remove "Fan Feed"*/
+#mixed-content-footer {
+    display: none !important;
+}
+
+/*Remove Fandom links footer*/
+.global-footer {
+    display: none;
+}
+
+/*Remove featured videos*/
+.featured-video-player-container {
+    display: none;
+}
+
+.featured-video__wrapper {
+    display: none !important;
+}
+
+/*Remove ad containers*/
+.top-ads-container,
+.bottom-ads-container,
+#top_boxad {
+    display: none;
+}
