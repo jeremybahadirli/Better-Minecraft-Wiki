@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FDBDC17292FD7800067A6B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBDC16292FD7800067A6B2 /* AppDelegate.swift */; };
+		3FDBDC19292FD7800067A6B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBDC18292FD7800067A6B2 /* SceneDelegate.swift */; };
+		3FDBDC1C292FD7800067A6B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC1A292FD7800067A6B2 /* LaunchScreen.storyboard */; };
+		3FDBDC1F292FD7800067A6B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC1D292FD7800067A6B2 /* Main.storyboard */; };
+		3FDBDC28292FD7800067A6B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBDC27292FD7800067A6B2 /* AppDelegate.swift */; };
+		3FDBDC2B292FD7800067A6B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC29292FD7800067A6B2 /* Main.storyboard */; };
+		3FDBDC32292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3FDBDC31292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FDBDC3C292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3FDBDC3B292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3FDBDC42292FD7800067A6B2 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDBFD292FD77F0067A6B2 /* Main.html */; };
+		3FDBDC43292FD7800067A6B2 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDBFD292FD77F0067A6B2 /* Main.html */; };
+		3FDBDC44292FD7800067A6B2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDBFF292FD77F0067A6B2 /* Icon.png */; };
+		3FDBDC45292FD7800067A6B2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDBFF292FD77F0067A6B2 /* Icon.png */; };
+		3FDBDC46292FD7800067A6B2 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC00292FD77F0067A6B2 /* Style.css */; };
+		3FDBDC47292FD7800067A6B2 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC00292FD77F0067A6B2 /* Style.css */; };
+		3FDBDC48292FD7800067A6B2 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC01292FD77F0067A6B2 /* Script.js */; };
+		3FDBDC49292FD7800067A6B2 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC01292FD77F0067A6B2 /* Script.js */; };
+		3FDBDC4A292FD7800067A6B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBDC02292FD77F0067A6B2 /* ViewController.swift */; };
+		3FDBDC4B292FD7800067A6B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBDC02292FD77F0067A6B2 /* ViewController.swift */; };
+		3FDBDC4C292FD7800067A6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC03292FD7800067A6B2 /* Assets.xcassets */; };
+		3FDBDC4D292FD7800067A6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC03292FD7800067A6B2 /* Assets.xcassets */; };
+		3FDBDC4E292FD7800067A6B2 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBDC05292FD7800067A6B2 /* SafariWebExtensionHandler.swift */; };
+		3FDBDC4F292FD7800067A6B2 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBDC05292FD7800067A6B2 /* SafariWebExtensionHandler.swift */; };
+		3FDBDC50292FD7800067A6B2 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC07292FD7800067A6B2 /* _locales */; };
+		3FDBDC51292FD7800067A6B2 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC07292FD7800067A6B2 /* _locales */; };
+		3FDBDC52292FD7800067A6B2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC08292FD7800067A6B2 /* images */; };
+		3FDBDC53292FD7800067A6B2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC08292FD7800067A6B2 /* images */; };
+		3FDBDC54292FD7800067A6B2 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC09292FD7800067A6B2 /* manifest.json */; };
+		3FDBDC55292FD7800067A6B2 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC09292FD7800067A6B2 /* manifest.json */; };
+		3FDBDC56292FD7800067A6B2 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0A292FD7800067A6B2 /* background.js */; };
+		3FDBDC57292FD7800067A6B2 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0A292FD7800067A6B2 /* background.js */; };
+		3FDBDC58292FD7800067A6B2 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0B292FD7800067A6B2 /* content.js */; };
+		3FDBDC59292FD7800067A6B2 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0B292FD7800067A6B2 /* content.js */; };
+		3FDBDC5A292FD7800067A6B2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0C292FD7800067A6B2 /* popup.html */; };
+		3FDBDC5B292FD7800067A6B2 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0C292FD7800067A6B2 /* popup.html */; };
+		3FDBDC5C292FD7800067A6B2 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0D292FD7800067A6B2 /* popup.css */; };
+		3FDBDC5D292FD7800067A6B2 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0D292FD7800067A6B2 /* popup.css */; };
+		3FDBDC5E292FD7800067A6B2 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0E292FD7800067A6B2 /* popup.js */; };
+		3FDBDC5F292FD7800067A6B2 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBDC0E292FD7800067A6B2 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FDBDC33292FD7800067A6B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDBDBF7292FD77F0067A6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDBDC30292FD7800067A6B2;
+			remoteInfo = "Better Minecraft Wiki Extension (iOS)";
+		};
+		3FDBDC3D292FD7800067A6B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDBDBF7292FD77F0067A6B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FDBDC3A292FD7800067A6B2;
+			remoteInfo = "Better Minecraft Wiki Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3FDBDC65292FD7800067A6B2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3FDBDC32292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC6C292FD7800067A6B2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3FDBDC3C292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3FDBDBFE292FD77F0067A6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		3FDBDBFF292FD77F0067A6B2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3FDBDC00292FD77F0067A6B2 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		3FDBDC01292FD77F0067A6B2 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		3FDBDC02292FD77F0067A6B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FDBDC03292FD7800067A6B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FDBDC05292FD7800067A6B2 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		3FDBDC07292FD7800067A6B2 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		3FDBDC08292FD7800067A6B2 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		3FDBDC09292FD7800067A6B2 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		3FDBDC0A292FD7800067A6B2 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		3FDBDC0B292FD7800067A6B2 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		3FDBDC0C292FD7800067A6B2 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		3FDBDC0D292FD7800067A6B2 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		3FDBDC0E292FD7800067A6B2 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		3FDBDC13292FD7800067A6B2 /* Better Minecraft Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better Minecraft Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDBDC16292FD7800067A6B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FDBDC18292FD7800067A6B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FDBDC1B292FD7800067A6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FDBDC1E292FD7800067A6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FDBDC20292FD7800067A6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDBDC25292FD7800067A6B2 /* Better Minecraft Wiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Better Minecraft Wiki.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDBDC27292FD7800067A6B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FDBDC2A292FD7800067A6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FDBDC2C292FD7800067A6B2 /* Better Minecraft Wiki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Better Minecraft Wiki.entitlements"; sourceTree = "<group>"; };
+		3FDBDC31292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Better Minecraft Wiki Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDBDC36292FD7800067A6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDBDC3B292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Better Minecraft Wiki Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDBDC40292FD7800067A6B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FDBDC41292FD7800067A6B2 /* Better Minecraft Wiki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Better Minecraft Wiki.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FDBDC10292FD7800067A6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC22292FD7800067A6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC2E292FD7800067A6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC38292FD7800067A6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FDBDBF6292FD77F0067A6B2 = {
+			isa = PBXGroup;
+			children = (
+				3FDBDBFB292FD77F0067A6B2 /* Shared (App) */,
+				3FDBDC04292FD7800067A6B2 /* Shared (Extension) */,
+				3FDBDC15292FD7800067A6B2 /* iOS (App) */,
+				3FDBDC26292FD7800067A6B2 /* macOS (App) */,
+				3FDBDC35292FD7800067A6B2 /* iOS (Extension) */,
+				3FDBDC3F292FD7800067A6B2 /* macOS (Extension) */,
+				3FDBDC14292FD7800067A6B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FDBDBFB292FD77F0067A6B2 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDC02292FD77F0067A6B2 /* ViewController.swift */,
+				3FDBDC03292FD7800067A6B2 /* Assets.xcassets */,
+				3FDBDBFC292FD77F0067A6B2 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		3FDBDBFC292FD77F0067A6B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDBFD292FD77F0067A6B2 /* Main.html */,
+				3FDBDBFF292FD77F0067A6B2 /* Icon.png */,
+				3FDBDC00292FD77F0067A6B2 /* Style.css */,
+				3FDBDC01292FD77F0067A6B2 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FDBDC04292FD7800067A6B2 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDC05292FD7800067A6B2 /* SafariWebExtensionHandler.swift */,
+				3FDBDC06292FD7800067A6B2 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		3FDBDC06292FD7800067A6B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDC07292FD7800067A6B2 /* _locales */,
+				3FDBDC08292FD7800067A6B2 /* images */,
+				3FDBDC09292FD7800067A6B2 /* manifest.json */,
+				3FDBDC0A292FD7800067A6B2 /* background.js */,
+				3FDBDC0B292FD7800067A6B2 /* content.js */,
+				3FDBDC0C292FD7800067A6B2 /* popup.html */,
+				3FDBDC0D292FD7800067A6B2 /* popup.css */,
+				3FDBDC0E292FD7800067A6B2 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3FDBDC14292FD7800067A6B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDC13292FD7800067A6B2 /* Better Minecraft Wiki.app */,
+				3FDBDC25292FD7800067A6B2 /* Better Minecraft Wiki.app */,
+				3FDBDC31292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex */,
+				3FDBDC3B292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FDBDC15292FD7800067A6B2 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDC16292FD7800067A6B2 /* AppDelegate.swift */,
+				3FDBDC18292FD7800067A6B2 /* SceneDelegate.swift */,
+				3FDBDC1A292FD7800067A6B2 /* LaunchScreen.storyboard */,
+				3FDBDC1D292FD7800067A6B2 /* Main.storyboard */,
+				3FDBDC20292FD7800067A6B2 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		3FDBDC26292FD7800067A6B2 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDC27292FD7800067A6B2 /* AppDelegate.swift */,
+				3FDBDC29292FD7800067A6B2 /* Main.storyboard */,
+				3FDBDC2C292FD7800067A6B2 /* Better Minecraft Wiki.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		3FDBDC35292FD7800067A6B2 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDC36292FD7800067A6B2 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		3FDBDC3F292FD7800067A6B2 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBDC40292FD7800067A6B2 /* Info.plist */,
+				3FDBDC41292FD7800067A6B2 /* Better Minecraft Wiki.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FDBDC12292FD7800067A6B2 /* Better Minecraft Wiki (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDBDC66292FD7800067A6B2 /* Build configuration list for PBXNativeTarget "Better Minecraft Wiki (iOS)" */;
+			buildPhases = (
+				3FDBDC0F292FD7800067A6B2 /* Sources */,
+				3FDBDC10292FD7800067A6B2 /* Frameworks */,
+				3FDBDC11292FD7800067A6B2 /* Resources */,
+				3FDBDC65292FD7800067A6B2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDBDC34292FD7800067A6B2 /* PBXTargetDependency */,
+			);
+			name = "Better Minecraft Wiki (iOS)";
+			productName = "Better Minecraft Wiki (iOS)";
+			productReference = 3FDBDC13292FD7800067A6B2 /* Better Minecraft Wiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FDBDC24292FD7800067A6B2 /* Better Minecraft Wiki (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDBDC6D292FD7800067A6B2 /* Build configuration list for PBXNativeTarget "Better Minecraft Wiki (macOS)" */;
+			buildPhases = (
+				3FDBDC21292FD7800067A6B2 /* Sources */,
+				3FDBDC22292FD7800067A6B2 /* Frameworks */,
+				3FDBDC23292FD7800067A6B2 /* Resources */,
+				3FDBDC6C292FD7800067A6B2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDBDC3E292FD7800067A6B2 /* PBXTargetDependency */,
+			);
+			name = "Better Minecraft Wiki (macOS)";
+			productName = "Better Minecraft Wiki (macOS)";
+			productReference = 3FDBDC25292FD7800067A6B2 /* Better Minecraft Wiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FDBDC30292FD7800067A6B2 /* Better Minecraft Wiki Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDBDC62292FD7800067A6B2 /* Build configuration list for PBXNativeTarget "Better Minecraft Wiki Extension (iOS)" */;
+			buildPhases = (
+				3FDBDC2D292FD7800067A6B2 /* Sources */,
+				3FDBDC2E292FD7800067A6B2 /* Frameworks */,
+				3FDBDC2F292FD7800067A6B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Better Minecraft Wiki Extension (iOS)";
+			productName = "Better Minecraft Wiki Extension (iOS)";
+			productReference = 3FDBDC31292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3FDBDC3A292FD7800067A6B2 /* Better Minecraft Wiki Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDBDC69292FD7800067A6B2 /* Build configuration list for PBXNativeTarget "Better Minecraft Wiki Extension (macOS)" */;
+			buildPhases = (
+				3FDBDC37292FD7800067A6B2 /* Sources */,
+				3FDBDC38292FD7800067A6B2 /* Frameworks */,
+				3FDBDC39292FD7800067A6B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Better Minecraft Wiki Extension (macOS)";
+			productName = "Better Minecraft Wiki Extension (macOS)";
+			productReference = 3FDBDC3B292FD7800067A6B2 /* Better Minecraft Wiki Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDBDBF7292FD77F0067A6B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3FDBDC12292FD7800067A6B2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3FDBDC24292FD7800067A6B2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3FDBDC30292FD7800067A6B2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3FDBDC3A292FD7800067A6B2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 3FDBDBFA292FD77F0067A6B2 /* Build configuration list for PBXProject "Better Minecraft Wiki" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FDBDBF6292FD77F0067A6B2;
+			productRefGroup = 3FDBDC14292FD7800067A6B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FDBDC12292FD7800067A6B2 /* Better Minecraft Wiki (iOS) */,
+				3FDBDC24292FD7800067A6B2 /* Better Minecraft Wiki (macOS) */,
+				3FDBDC30292FD7800067A6B2 /* Better Minecraft Wiki Extension (iOS) */,
+				3FDBDC3A292FD7800067A6B2 /* Better Minecraft Wiki Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDBDC11292FD7800067A6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDBDC44292FD7800067A6B2 /* Icon.png in Resources */,
+				3FDBDC1C292FD7800067A6B2 /* LaunchScreen.storyboard in Resources */,
+				3FDBDC42292FD7800067A6B2 /* Main.html in Resources */,
+				3FDBDC48292FD7800067A6B2 /* Script.js in Resources */,
+				3FDBDC4C292FD7800067A6B2 /* Assets.xcassets in Resources */,
+				3FDBDC1F292FD7800067A6B2 /* Main.storyboard in Resources */,
+				3FDBDC46292FD7800067A6B2 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC23292FD7800067A6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDBDC45292FD7800067A6B2 /* Icon.png in Resources */,
+				3FDBDC47292FD7800067A6B2 /* Style.css in Resources */,
+				3FDBDC2B292FD7800067A6B2 /* Main.storyboard in Resources */,
+				3FDBDC49292FD7800067A6B2 /* Script.js in Resources */,
+				3FDBDC4D292FD7800067A6B2 /* Assets.xcassets in Resources */,
+				3FDBDC43292FD7800067A6B2 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC2F292FD7800067A6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDBDC56292FD7800067A6B2 /* background.js in Resources */,
+				3FDBDC5C292FD7800067A6B2 /* popup.css in Resources */,
+				3FDBDC5A292FD7800067A6B2 /* popup.html in Resources */,
+				3FDBDC52292FD7800067A6B2 /* images in Resources */,
+				3FDBDC54292FD7800067A6B2 /* manifest.json in Resources */,
+				3FDBDC50292FD7800067A6B2 /* _locales in Resources */,
+				3FDBDC58292FD7800067A6B2 /* content.js in Resources */,
+				3FDBDC5E292FD7800067A6B2 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC39292FD7800067A6B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDBDC57292FD7800067A6B2 /* background.js in Resources */,
+				3FDBDC5D292FD7800067A6B2 /* popup.css in Resources */,
+				3FDBDC5B292FD7800067A6B2 /* popup.html in Resources */,
+				3FDBDC53292FD7800067A6B2 /* images in Resources */,
+				3FDBDC55292FD7800067A6B2 /* manifest.json in Resources */,
+				3FDBDC51292FD7800067A6B2 /* _locales in Resources */,
+				3FDBDC59292FD7800067A6B2 /* content.js in Resources */,
+				3FDBDC5F292FD7800067A6B2 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FDBDC0F292FD7800067A6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDBDC4A292FD7800067A6B2 /* ViewController.swift in Sources */,
+				3FDBDC17292FD7800067A6B2 /* AppDelegate.swift in Sources */,
+				3FDBDC19292FD7800067A6B2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC21292FD7800067A6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDBDC4B292FD7800067A6B2 /* ViewController.swift in Sources */,
+				3FDBDC28292FD7800067A6B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC2D292FD7800067A6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDBDC4E292FD7800067A6B2 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDBDC37292FD7800067A6B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDBDC4F292FD7800067A6B2 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDBDC34292FD7800067A6B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDBDC30292FD7800067A6B2 /* Better Minecraft Wiki Extension (iOS) */;
+			targetProxy = 3FDBDC33292FD7800067A6B2 /* PBXContainerItemProxy */;
+		};
+		3FDBDC3E292FD7800067A6B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FDBDC3A292FD7800067A6B2 /* Better Minecraft Wiki Extension (macOS) */;
+			targetProxy = 3FDBDC3D292FD7800067A6B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FDBDBFD292FD77F0067A6B2 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDBDBFE292FD77F0067A6B2 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		3FDBDC1A292FD7800067A6B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDBDC1B292FD7800067A6B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDBDC1D292FD7800067A6B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDBDC1E292FD7800067A6B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FDBDC29292FD7800067A6B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FDBDC2A292FD7800067A6B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FDBDC60292FD7800067A6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FDBDC61292FD7800067A6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3FDBDC63292FD7800067A6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4P76HS7SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremybahadirli.Better-Minecraft-Wiki.Extension";
+				PRODUCT_NAME = "Better Minecraft Wiki Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FDBDC64292FD7800067A6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4P76HS7SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremybahadirli.Better-Minecraft-Wiki.Extension";
+				PRODUCT_NAME = "Better Minecraft Wiki Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDBDC67292FD7800067A6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4P76HS7SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremybahadirli.Better-Minecraft-Wiki";
+				PRODUCT_NAME = "Better Minecraft Wiki";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FDBDC68292FD7800067A6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4P76HS7SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremybahadirli.Better-Minecraft-Wiki";
+				PRODUCT_NAME = "Better Minecraft Wiki";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FDBDC6A292FD7800067A6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Better Minecraft Wiki.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4P76HS7SH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremybahadirli.Better-Minecraft-Wiki.Extension";
+				PRODUCT_NAME = "Better Minecraft Wiki Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3FDBDC6B292FD7800067A6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Better Minecraft Wiki.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4P76HS7SH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremybahadirli.Better-Minecraft-Wiki.Extension";
+				PRODUCT_NAME = "Better Minecraft Wiki Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3FDBDC6E292FD7800067A6B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Better Minecraft Wiki.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4P76HS7SH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremybahadirli.Better-Minecraft-Wiki";
+				PRODUCT_NAME = "Better Minecraft Wiki";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3FDBDC6F292FD7800067A6B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Better Minecraft Wiki.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q4P76HS7SH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeremybahadirli.Better-Minecraft-Wiki";
+				PRODUCT_NAME = "Better Minecraft Wiki";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDBDBFA292FD77F0067A6B2 /* Build configuration list for PBXProject "Better Minecraft Wiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDBDC60292FD7800067A6B2 /* Debug */,
+				3FDBDC61292FD7800067A6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDBDC62292FD7800067A6B2 /* Build configuration list for PBXNativeTarget "Better Minecraft Wiki Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDBDC63292FD7800067A6B2 /* Debug */,
+				3FDBDC64292FD7800067A6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDBDC66292FD7800067A6B2 /* Build configuration list for PBXNativeTarget "Better Minecraft Wiki (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDBDC67292FD7800067A6B2 /* Debug */,
+				3FDBDC68292FD7800067A6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDBDC69292FD7800067A6B2 /* Build configuration list for PBXNativeTarget "Better Minecraft Wiki Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDBDC6A292FD7800067A6B2 /* Debug */,
+				3FDBDC6B292FD7800067A6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FDBDC6D292FD7800067A6B2 /* Build configuration list for PBXNativeTarget "Better Minecraft Wiki (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDBDC6E292FD7800067A6B2 /* Debug */,
+				3FDBDC6F292FD7800067A6B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FDBDBF7292FD77F0067A6B2 /* Project object */;
+}
