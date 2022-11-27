@@ -76,15 +76,12 @@
 }
 
 /*Remove featured videos*/
-.featured-video-player-container {
-    display: none;
-}
-
+.featured-video-player-container,
 .featured-video__wrapper {
     display: none !important;
 }
 
-/*Remove ad containers*/
+/*Remove ads*/
 .top-ads-container,
 .bottom-ads-container,
 #top_boxad {
@@ -92,7 +89,6 @@
 }
 
 /*MOBILE*/
-/*TODO: Mobile Version*/
 
 /*Fix top navigation bar*/
 .mobile-global-navigation__wrapper {
@@ -101,13 +97,14 @@
     --fandom-global-nav-mobile-background-color: var(--theme-page-background-color--secondary);
     --fandom-global-nav-link-color: var(--theme-page-text-color);
 }
-
 .mobile-community-bar {
     height: 55px;
 }
-
 .mobile-community-bar__content {
     display: none !important;
+}
+.mobile-global-navigation__logo {
+    display: none;
 }
 
 /*Remove Fandom bar from search page*/
@@ -125,27 +122,11 @@
     display: none !important;
 }
 
-/*Ad*/
-#floor_adhesion_anchor {
-    display: none;
-}
-
-/*Ad*/
-.kargo-ad-hover {
-    display: none;
-}
-
-/*Ad*/
-.ad-slot-placeholder {
-    display: none !important;
-}
-
-/*Ad*/
-.ad-slot {
-    display: none;
-}
-
-/*Ad*/
+/*Remove ads*/
+#floor_adhesion_anchor,
+.kargo-ad-hover,
+.ad-slot-placeholder,
+.ad-slot,
 .aff-unit__wrapper {
-    display: none;
+    display: none !important;
 }
