@@ -18,10 +18,14 @@
     display: none !important;
 }
 
-/*Compensate main container for missing sidebar*/
 .main-container {
+    /*Compensate main container for missing sidebar*/
     margin-left: 0 !important;
     width: 100% !important;
+    
+    /*Hide unloaded image*/
+    position: absolute;
+    z-index: 0;
 }
 
 /*Compensate grey pop-up header for missing sidebar*/
