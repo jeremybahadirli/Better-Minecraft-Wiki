@@ -616,7 +616,7 @@
 				DEVELOPMENT_TEAM = Q4P76HS7SH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better MC Wiki Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -647,7 +647,7 @@
 				DEVELOPMENT_TEAM = Q4P76HS7SH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki Extension";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better MC Wiki Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -682,7 +682,7 @@
 				DEVELOPMENT_TEAM = Q4P76HS7SH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better MC Wiki";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -720,7 +720,7 @@
 				DEVELOPMENT_TEAM = Q4P76HS7SH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Better Minecraft Wiki";
+				INFOPLIST_KEY_CFBundleDisplayName = "Better MC Wiki";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
