@@ -36,7 +36,6 @@
 }
 
 /*Allow search results to use full horizontal space*/
-/*TODO: Finalize this*/
 .unified-search__layout {
     grid-template-areas: "left main right" !important;
     grid-template-columns: 2fr 7fr 3fr !important;
@@ -86,13 +85,19 @@
 /*MOBILE*/
 /*TODO: Mobile Version*/
 
-/*Change top navigation bar to white*/
+/*Fix top navigation bar*/
 .mobile-global-navigation__wrapper {
-    --fandom-global-nav-background-color: #fff;
-    --fandom-global-nav-mobile-background-color: #fff;
+    position: absolute;
+    --fandom-global-nav-background-color: var(--theme-page-background-color--secondary);
+    --fandom-global-nav-mobile-background-color: var(--theme-page-background-color--secondary);
+    --fandom-global-nav-link-color: var(--theme-page-text-color);
 }
 
-.mobile-global-navigation__user-menu {
+.mobile-community-bar {
+    height: 55px;
+}
+
+.mobile-community-bar__content {
     display: none !important;
 }
 
