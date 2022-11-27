@@ -10,7 +10,12 @@
 
 /*Remove Fandom sidebar*/
 .global-navigation {
-    display:none !important;
+    display: none !important;
+}
+
+/*Remove floating header*/
+.fandom-sticky-header {
+    display: none !important;
 }
 
 /*Compensate main container for missing sidebar*/
