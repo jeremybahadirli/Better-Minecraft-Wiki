@@ -84,6 +84,7 @@
 /*Remove ads*/
 .top-ads-container,
 .bottom-ads-container,
+.gpt-ad,
 #top_boxad {
     display: none;
 }
