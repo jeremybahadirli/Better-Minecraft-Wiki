@@ -3,7 +3,7 @@
     
     "name": "Better MC Wiki",
     "description": "Removes bloat and ads from the Minecraft Wiki.",
-    "version": "1.0",
+    "version": "1.0.0",
     
     "icons": {
         "48": "images/icon-48.png",
