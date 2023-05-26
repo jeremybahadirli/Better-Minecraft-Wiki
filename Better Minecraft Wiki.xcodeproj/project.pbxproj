@@ -80,6 +80,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F8B3F2C29F191F600A206F5 /* create-zip.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "create-zip.md"; sourceTree = "<group>"; };
 		3FDBDBFE292FD77F0067A6B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		3FDBDBFF292FD77F0067A6B2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		3FDBDC00292FD77F0067A6B2 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		3FDBDBF6292FD77F0067A6B2 = {
 			isa = PBXGroup;
 			children = (
+				3F8B3F2C29F191F600A206F5 /* create-zip.md */,
 				3FDBDBFB292FD77F0067A6B2 /* Shared (App) */,
 				3FDBDC04292FD7800067A6B2 /* Shared (Extension) */,
 				3FDBDC15292FD7800067A6B2 /* iOS (App) */,
